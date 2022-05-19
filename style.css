@@ -10,7 +10,7 @@
   }
 
   .container{
-    padding-top: 50px;
+    padding-top: 20px;
     width: 700px;
     height: 800px;
     margin: 50px auto;
@@ -78,6 +78,10 @@
 	100% {color: #ff0000}
 } */
 
+#info-container .text{
+    margin: 0 auto;
+    margin-left: 150px;
+}
 
   #info-container p {
     padding: 0 10px;
@@ -95,6 +99,7 @@
     #main-container { width: 342px; }  
     #flag-container { height: 172px; }  
     #info-container select { font-size: 12px; font-weight: 600; }
+    #info-container .text{margin-left: 100px;}
   }
 
  
